@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AmazonInsightsSDK"
-  s.version      = "2.1.11.0"
+  s.version      = "2.1.17.0"
   s.platform = :ios, '5.0'
   s.summary      = "Amazon Insights SDK."
   s.author       = { "Amazon" => "support@amazon.com" }
