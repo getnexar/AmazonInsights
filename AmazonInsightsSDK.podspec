@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Shoptap/AmazonInsights.git", :tag => s.version.to_s }
 
   s.ios.vendored_frameworks = 'AmazonInsightsSDK.framework'
-  s.ios.frameworks    = 'SystemConfiguration', 'libz.dylib'
+  s.ios.frameworks    = 'SystemConfiguration'
   s.requires_arc = true
 end
