@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Amazon" => "support@amazon.com" }
   s.license      = 'Commercial' 
   s.homepage     = "https://developer.amazon.com/"
-  s.source       = { :git => "https://github.com/Shoptap/AmazonInsights.git", :tag => s.version.to_s }
+  s.source       = { :git => "git@github.com:getnexar/pod-amazon-insights.git", :tag => s.version.to_s }
 
   s.ios.vendored_frameworks = 'AmazonInsightsSDK.framework'
   s.ios.frameworks    = 'SystemConfiguration'
